@@ -23,7 +23,7 @@ app.controller('myCtrl', function($scope, $interval) {
     if (!run) {
       $scope.timerOption = "Pause";
       timer();
-      run = $interval(timer, 100);
+      run = $interval(timer, 1000);
       //press PAUSE
     } else {
       $scope.timerOption = "Start";
