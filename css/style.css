@@ -1,0 +1,55 @@
+header {
+  font-size: 3em;
+}
+
+body {
+  background-image: url('https://media.giphy.com/media/Wwk62udPvAjVS/giphy.gif');
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Palatino Linotype";
+  color: white;
+  padding: 80px;
+  padding-left: 0px;
+}
+
+.time {
+  margin: auto;
+  text-align: center;
+  font-size: 4em;
+  position: relative;
+  overflow: hidden;
+  color: #ff9933;
+}
+
+button {
+  font-family: "Palatino Linotype";
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 3em;
+  outline: none;
+  color: white;
+}
+
+input {
+  font-family: "Palatino Linotype";
+  border: none;
+  text-align: center;
+  font-size: 2em;
+  width: 25%;
+  background: none;
+  color: #ff9933;
+}
+
+input:focus {
+  outline: none;
+}
+
+p {
+  font-size: 1.5em;
+}
