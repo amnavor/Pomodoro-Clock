@@ -1,3 +1,6 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/amnavor/pen/dGbqLY.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/amnavor/full/dGbqLY/.
+
+Pomodoro Clock with set times of 25 minute sessions and 5 minute breaks.  Includes option to change 
+future sessions and breaks. 
 
  
