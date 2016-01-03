@@ -1,41 +1,17 @@
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Pomodorable Clock</title>
-    
-    
-    
-    
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
-    <div ng-app="myApp" ng-controller="myCtrl">
-
-  <body>
-    <header> {{sessionType}} </header>
-    <p class="time"> {{timeLeft}} </p>
-
+<!--  
+Image from https://eloquentyoungpilgrims.files.wordpress.com/2011/10/robot_background.png
+-->
+<div class = "main" ng-app="myApp" ng-controller="myCtrl">
+<body>
+    <p class="time"> {{sessionType}} 
+      <br>
+      <span> {{timeLeft}}  </span>
+      <br>
     <button ng-click='switchTimer()'> {{timerOption}} </button>
-    <p> Break (minutes):
+      <br>
+    Break (minutes):
       <input type="number" ng-model="breakLength">
       <br>Session (minutes):
       <input type="number" ng-model="sessionLength"> </p>
   </body>
 </div>
-    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
-
-        <script src="js/index.js"></script>
-
-    
-    
-    
-  </body>
-</html>
