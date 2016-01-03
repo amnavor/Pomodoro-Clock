@@ -1,55 +1,54 @@
-header {
-  font-size: 3em;
-}
-
-body {
-  background-image: url('https://media.giphy.com/media/Wwk62udPvAjVS/giphy.gif');
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  text-align: center;
-  margin: 0 auto;
-  font-family: "Palatino Linotype";
-  color: white;
-  padding: 80px;
-  padding-left: 0px;
-}
-
-.time {
-  margin: auto;
-  text-align: center;
-  font-size: 4em;
-  position: relative;
-  overflow: hidden;
-  color: #ff9933;
-}
-
 button {
-  font-family: "Palatino Linotype";
-  color: black;
+  color: #ffff80;
   background: none;
-  border: none;
   cursor: pointer;
-  font-size: 3em;
+  font-size: 1em;
   outline: none;
-  color: white;
+  border: none;
+  font-family: "Arial";
 }
 
 input {
-  font-family: "Palatino Linotype";
+  font-family: "Arial";
   border: none;
-  text-align: center;
-  font-size: 2em;
-  width: 25%;
+  text-align: right;
+  font-size: 1.25em;
+  width: 15%;
   background: none;
-  color: #ff9933;
+  color: white;
 }
 
 input:focus {
   outline: none;
 }
 
-p {
+p {   
+  color: white;
+  text-align: center;
   font-size: 1.5em;
+   display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 170px;
+    margin: auto;
 }
+
+span{
+  font-size: 2em;
+}
+
+body {
+  background: url(https://eloquentyoungpilgrims.files.wordpress.com/2011/10/robot_background.png) fixed center no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-family: "Arial";
+}
+
+
+
+  
+
